@@ -10,3 +10,9 @@ Me interesa porque facilita construir dApps sin pagar gas caro.
 - Base usa Optimism Stack
 - Los fees bajos permiten experimentar sin miedo
 - Chain ID de Base Mainnet: 8453
+
+### Diferencia entre testnet y mainnet en Base
+
+- Testnet: Ideal para practicar sin gastar dinero real
+- Mainnet: Para proyectos serios y con valor real
+- Siempre empezar en testnet para evitar errores costosos
