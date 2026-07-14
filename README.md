@@ -57,3 +57,8 @@ Consejos para ahorrar:
 3. Recibe el token deseado en su wallet
 
 Todo se hace en una o dos transacciones.
+
+### On-chain vs Off-chain
+
+- On-chain: Todo queda registrado en la blockchain (transparente pero caro)
+- Off-chain: Se hace fuera de la cadena (más rápido y barato) y luego se lleva a on-chain cuando es necesario
