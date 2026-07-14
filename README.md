@@ -62,3 +62,12 @@ Todo se hace en una o dos transacciones.
 
 - On-chain: Todo queda registrado en la blockchain (transparente pero caro)
 - Off-chain: Se hace fuera de la cadena (más rápido y barato) y luego se lleva a on-chain cuando es necesario
+
+- ### Introducción a Hardhat
+
+Hardhat es una herramienta de desarrollo para Ethereum y L2s como Base.
+
+Ventajas:
+- Entorno local completo
+- Testing fácil
+- Scripts de despliegue
