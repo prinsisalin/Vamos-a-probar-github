@@ -22,3 +22,12 @@ Me interesa porque facilita construir dApps sin pagar gas caro.
 Un bridge sirve para mover fondos desde Ethereum u otras chains a Base. 
 
 Consejo: Siempre usar el bridge oficial al principio y probar con cantidades pequeñas.
+
+### Tipos de transacciones comunes en Base
+
+- Transferencias simples de ETH o tokens
+- Interacción con contratos (swaps, mint, etc.)
+- Despliegue de contratos
+- Aprobaciones (approve)
+
+Cada una tiene un costo de gas diferente.
