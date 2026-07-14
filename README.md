@@ -49,3 +49,11 @@ Consejos para ahorrar:
 - Minimizar operaciones de almacenamiento
 - Usar variables adecuadas
 - Agrupar transacciones cuando sea posible
+
+- ### Cómo funciona un swap en un DEX de Base
+
+1. Usuario aprueba el token que quiere vender
+2. Llama al router del DEX con los parámetros del swap
+3. Recibe el token deseado en su wallet
+
+Todo se hace en una o dos transacciones.
