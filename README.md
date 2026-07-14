@@ -40,3 +40,12 @@ Pasos básicos:
 - Ir a Blockscout
 - Buscar el contrato
 - Subir el código fuente y metadata
+
+### Gas en Base: qué es y cómo optimizarlo
+
+El gas es el costo de ejecutar operaciones en la blockchain.
+
+Consejos para ahorrar:
+- Minimizar operaciones de almacenamiento
+- Usar variables adecuadas
+- Agrupar transacciones cuando sea posible
