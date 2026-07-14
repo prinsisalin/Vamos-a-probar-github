@@ -16,3 +16,9 @@ Me interesa porque facilita construir dApps sin pagar gas caro.
 - Testnet: Ideal para practicar sin gastar dinero real
 - Mainnet: Para proyectos serios y con valor real
 - Siempre empezar en testnet para evitar errores costosos
+
+### ¿Qué es un bridge y cómo usarlo en Base?
+
+Un bridge sirve para mover fondos desde Ethereum u otras chains a Base. 
+
+Consejo: Siempre usar el bridge oficial al principio y probar con cantidades pequeñas.
