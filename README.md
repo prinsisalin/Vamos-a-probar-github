@@ -71,3 +71,12 @@ Ventajas:
 - Entorno local completo
 - Testing fácil
 - Scripts de despliegue
+
+- ### Airdrops en el ecosistema Base
+
+Algunos proyectos hacen airdrops a usuarios activos. 
+
+Forma de participar:
+- Usar sus dApps
+- Proporcionar liquidez
+- Participar en quests o testnets
