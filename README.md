@@ -80,3 +80,10 @@ Forma de participar:
 - Usar sus dApps
 - Proporcionar liquidez
 - Participar en quests o testnets
+
+- ### Gas Limit y Gas Price
+
+- Gas Limit: Cantidad máxima de gas que estás dispuesto a gastar en una transacción
+- Gas Price: Precio por unidad de gas
+
+En Base suelen ser muy bajos comparado con Ethereum.
