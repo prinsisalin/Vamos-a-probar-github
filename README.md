@@ -158,3 +158,17 @@ Añadir:
 - Contador por usuario
 
 Esto lo haría más útil como proyecto de práctica.
+
+### Script de testing básico
+
+```javascript
+const { expect } = require("chai");
+
+describe("SimpleStorage", function () {
+  it("Debería guardar y leer datos", async function () {
+    const SimpleStorage = await ethers.getContractFactory("SimpleStorage");
+    const storage = await SimpleStorage.deploy();
+    await storage.setData("Test en Base");
+    expect(await storage.getData()).to.equal("Test en Base");
+  });
+});
