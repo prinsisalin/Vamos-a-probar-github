@@ -172,3 +172,15 @@ describe("SimpleStorage", function () {
     expect(await storage.getData()).to.equal("Test en Base");
   });
 });
+### Contrato con mapping (usuarios)
+
+```solidity
+contract UserRegistry {
+    mapping(address => bool) public registered;
+    mapping(address => uint256) public score;
+
+    function register() public {
+        registered[msg.sender] = true;
+        score[msg.sender] = 100;
+    }
+}
