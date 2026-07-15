@@ -201,3 +201,15 @@ contract MyToken {
         return true;
     }
 }
+
+### Uso de OpenZeppelin (buena práctica)
+
+En lugar de escribir todo desde cero, se recomienda usar:
+
+```solidity
+import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
+import "@openzeppelin/contracts/access/Ownable.sol";
+
+contract MyToken is ERC20, Ownable {
+    constructor() ERC20("MyToken", "MTK") {}
+}
