@@ -223,3 +223,13 @@ function mint(address to, uint256 tokenId) public onlyOwner {
 function mintToSelf() public {
     _safeMint(msg.sender, nextTokenId++);
 }
+### Protección contra reentrancy
+
+```solidity
+import "@openzeppelin/contracts/security/ReentrancyGuard.sol";
+
+contract SecureContract is ReentrancyGuard {
+    function withdraw() public nonReentrant {
+        // lógica segura
+    }
+}
