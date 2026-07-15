@@ -184,3 +184,20 @@ contract UserRegistry {
         score[msg.sender] = 100;
     }
 }
+
+### Ejemplo ERC20 simplificado
+
+```solidity
+contract MyToken {
+    string public name = "MyBaseToken";
+    string public symbol = "MBT";
+    uint8 public decimals = 18;
+    uint256 public totalSupply;
+
+    mapping(address => uint256) public balanceOf;
+
+    function transfer(address to, uint256 amount) public returns (bool) {
+        // lógica de transferencia
+        return true;
+    }
+}
