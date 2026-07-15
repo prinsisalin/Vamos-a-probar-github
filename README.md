@@ -213,3 +213,13 @@ import "@openzeppelin/contracts/access/Ownable.sol";
 contract MyToken is ERC20, Ownable {
     constructor() ERC20("MyToken", "MTK") {}
 }
+### Función de mint en NFT
+
+```solidity
+function mint(address to, uint256 tokenId) public onlyOwner {
+    _safeMint(to, tokenId);
+}
+
+function mintToSelf() public {
+    _safeMint(msg.sender, nextTokenId++);
+}
