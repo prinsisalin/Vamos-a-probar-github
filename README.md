@@ -250,3 +250,13 @@ function deposit() public payable {
 }
 
 receive() external payable {}
+
+```markdown
+### Uso de Libraries
+
+```solidity
+import "@openzeppelin/contracts/utils/Strings.sol";
+
+function toString(uint256 value) internal pure returns (string memory) {
+    return Strings.toString(value);
+}
