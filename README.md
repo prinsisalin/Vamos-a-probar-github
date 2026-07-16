@@ -233,3 +233,11 @@ contract SecureContract is ReentrancyGuard {
         // lógica segura
     }
 }
+### Buenas prácticas de errores en Solidity
+
+```solidity
+require(balance >= amount, "Insufficient balance");
+
+// Mejor (más gas eficiente):
+error InsufficientBalance();
+if (balance < amount) revert InsufficientBalance();
