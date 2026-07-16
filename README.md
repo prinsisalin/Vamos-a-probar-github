@@ -241,3 +241,12 @@ require(balance >= amount, "Insufficient balance");
 // Mejor (más gas eficiente):
 error InsufficientBalance();
 if (balance < amount) revert InsufficientBalance();
+
+### Función payable
+
+```solidity
+function deposit() public payable {
+    emit Deposit(msg.sender, msg.value);
+}
+
+receive() external payable {}
