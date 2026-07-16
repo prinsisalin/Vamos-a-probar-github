@@ -260,3 +260,14 @@ import "@openzeppelin/contracts/utils/Strings.sol";
 function toString(uint256 value) internal pure returns (string memory) {
     return Strings.toString(value);
 }
+
+### Uso de Enums
+
+```solidity
+enum Status { Pending, Active, Completed, Cancelled }
+
+Status public currentStatus;
+
+function updateStatus(Status _status) public {
+    currentStatus = _status;
+}
