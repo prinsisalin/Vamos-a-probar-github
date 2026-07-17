@@ -372,3 +372,13 @@ Ventajas:
 - Chainlink VRF → número aleatorio verificable y seguro
 
 Usar VRF cuando la aleatoriedad sea crítica.
+
+### Contrato con fees dinámicos
+
+```solidity
+uint256 public feePercent = 5; // 5%
+
+function swap(...) public {
+    uint256 fee = (amount * feePercent) / 100;
+    // transfer fee to treasury
+}
