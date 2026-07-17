@@ -320,3 +320,14 @@ function withdraw() public {
     balances[msg.sender] = 0; // reentrancy protection
     payable(msg.sender).transfer(amount);
 }
+
+### Uso básico de Assembly
+
+```solidity
+function add(uint256 a, uint256 b) public pure returns (uint256) {
+    assembly {
+        let result := add(a, b)
+        mstore(0x00, result)
+        return(0x00, 32)
+    }
+}
