@@ -412,3 +412,10 @@ Un contrato que permite:
 - Recaudar fondos en ETH/USDC
 - Distribuir tokens al final
 - Fair launch con límites por wallet
+
+### Mecanismos anti-bot básicos
+
+- Delay entre transacciones
+- Max tx amount
+- Blacklist temporal
+- Require transaction from DEX router
