@@ -338,3 +338,13 @@ function add(uint256 a, uint256 b) public pure returns (uint256) {
 require(block.timestamp > lastTime + 1 days, "Too soon");
 
 // Evitar manipulaciones: no usar para lógica crítica sin VRF
+
+### Variables immutable y constant
+
+```solidity
+address public immutable owner;
+uint256 public constant MAX_SUPPLY = 1000000;
+
+constructor(address _owner) {
+    owner = _owner;
+}
