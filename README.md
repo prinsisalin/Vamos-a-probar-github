@@ -271,3 +271,13 @@ Status public currentStatus;
 function updateStatus(Status _status) public {
     currentStatus = _status;
 }
+
+### Arrays dinámicos y fijos
+
+```solidity
+uint256[] public numbers; // dinámico
+string[10] public fixedArray; // fijo
+
+function addNumber(uint256 num) public {
+    numbers.push(num);
+}
