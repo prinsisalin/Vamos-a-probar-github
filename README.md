@@ -308,3 +308,15 @@ contract Caller {
         usdc.transferFrom(msg.sender, address(this), amount);
     }
 }
+
+
+### Withdraw Pattern (seguridad)
+
+```solidity
+mapping(address => uint256) public balances;
+
+function withdraw() public {
+    uint256 amount = balances[msg.sender];
+    balances[msg.sender] = 0; // reentrancy protection
+    payable(msg.sender).transfer(amount);
+}
