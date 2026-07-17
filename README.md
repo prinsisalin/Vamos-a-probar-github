@@ -390,3 +390,12 @@ function swap(...) public {
 require(a + b >= a, "Overflow");
 
  // o usar librerías SafeMath en versiones antiguas
+
+### Wallets comunes en proyectos
+
+- Marketing Wallet
+- Team Wallet (vesting)
+- Liquidity Wallet
+- Treasury Wallet
+
+Buena práctica separar los fondos.
