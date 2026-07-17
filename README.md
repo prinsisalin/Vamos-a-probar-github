@@ -399,3 +399,9 @@ require(a + b >= a, "Overflow");
 - Treasury Wallet
 
 Buena práctica separar los fondos.
+
+### Auto liquidity add
+
+Al recibir tax, el contrato puede añadir automáticamente liquidez al pool del DEX.
+
+Esto crea un efecto flywheel positivo para el token.
