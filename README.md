@@ -405,3 +405,10 @@ Buena práctica separar los fondos.
 Al recibir tax, el contrato puede añadir automáticamente liquidez al pool del DEX.
 
 Esto crea un efecto flywheel positivo para el token.
+
+### Concepto de launchpad simple
+
+Un contrato que permite:
+- Recaudar fondos en ETH/USDC
+- Distribuir tokens al final
+- Fair launch con límites por wallet
