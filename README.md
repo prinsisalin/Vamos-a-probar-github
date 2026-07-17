@@ -281,3 +281,15 @@ string[10] public fixedArray; // fijo
 function addNumber(uint256 num) public {
     numbers.push(num);
 }
+
+### Modifiers avanzados
+
+```solidity
+modifier onlyAfter(uint256 time) {
+    require(block.timestamp >= time, "Too early");
+    _;
+}
+
+function claim() public onlyAfter(unlockTime) {
+    // claim logic
+}
