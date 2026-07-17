@@ -357,3 +357,11 @@ bytes32 public constant ROLE = keccak256("MINTER_ROLE");
 function hasRole(bytes32 role, address account) public view returns (bool) {
     // lógica
 }
+
+### Meta-transactions
+
+Permiten que alguien pague el gas por el usuario.
+
+Ventajas:
+- Mejor UX (usuario no necesita ETH)
+- Usado en muchos proyectos modernos de Base.
