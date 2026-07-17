@@ -348,3 +348,12 @@ uint256 public constant MAX_SUPPLY = 1000000;
 constructor(address _owner) {
     owner = _owner;
 }
+
+### Uso de keccak256
+
+```solidity
+bytes32 public constant ROLE = keccak256("MINTER_ROLE");
+
+function hasRole(bytes32 role, address account) public view returns (bool) {
+    // lógica
+}
