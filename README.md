@@ -365,3 +365,10 @@ Permiten que alguien pague el gas por el usuario.
 Ventajas:
 - Mejor UX (usuario no necesita ETH)
 - Usado en muchos proyectos modernos de Base.
+
+### VRF vs block.timestamp
+
+- block.timestamp → manipulable
+- Chainlink VRF → número aleatorio verificable y seguro
+
+Usar VRF cuando la aleatoriedad sea crítica.
