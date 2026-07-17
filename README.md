@@ -419,3 +419,9 @@ Un contrato que permite:
 - Max tx amount
 - Blacklist temporal
 - Require transaction from DEX router
+
+### Marketing fund automático
+
+Parte de la tax va a una wallet de marketing:
+- Transparente
+- Se puede usar para CEX listings, influencers, etc.
