@@ -293,3 +293,18 @@ modifier onlyAfter(uint256 time) {
 function claim() public onlyAfter(unlockTime) {
     // claim logic
 }
+
+### Contrato que interactúa con otro
+
+```solidity
+contract Caller {
+    IERC20 public usdc;
+
+    constructor(address _usdc) {
+        usdc = IERC20(_usdc);
+    }
+
+    function deposit(uint256 amount) public {
+        usdc.transferFrom(msg.sender, address(this), amount);
+    }
+}
