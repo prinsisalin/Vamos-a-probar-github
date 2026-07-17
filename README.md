@@ -331,3 +331,10 @@ function add(uint256 a, uint256 b) public pure returns (uint256) {
         return(0x00, 32)
     }
 }
+
+### Uso seguro de block.timestamp
+
+```solidity
+require(block.timestamp > lastTime + 1 days, "Too soon");
+
+// Evitar manipulaciones: no usar para lógica crítica sin VRF
