@@ -382,3 +382,11 @@ function swap(...) public {
     uint256 fee = (amount * feePercent) / 100;
     // transfer fee to treasury
 }
+
+### Prevención de overflow
+
+```solidity
+// En versiones modernas de Solidity ya está protegido, pero:
+require(a + b >= a, "Overflow");
+
+ // o usar librerías SafeMath en versiones antiguas
