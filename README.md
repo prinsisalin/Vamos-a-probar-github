@@ -439,3 +439,10 @@ Parte de la tax va a una wallet de marketing:
 event Transfer(address indexed from, address indexed to, uint256 value);
 event TaxCollected(uint256 amount, string taxType);
 event OwnershipTransferred(address previousOwner, address newOwner);
+
+### Events con indexed
+
+```solidity
+event Transfer(address indexed from, address indexed to, uint256 value);
+
+ // indexed permite filtrar fácilmente en frontend y indexadores
