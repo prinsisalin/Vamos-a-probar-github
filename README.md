@@ -510,3 +510,7 @@ Se usan para determinar el precio al vencimiento y ejecutar automáticamente.
 ### Oráculos en prediction markets
 
 El resultado del evento se resuelve usando Chainlink o datos verificables.
+
+### Oráculos en insurance
+
+Se usan para verificar eventos (ej: hack, precio por debajo de X, etc.) y pagar claims automáticamente.
