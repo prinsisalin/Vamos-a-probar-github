@@ -452,3 +452,10 @@ event Transfer(address indexed from, address indexed to, uint256 value);
 ERC721A reduce el gas de mint masivo de NFTs.
 
 Ideal para colecciones grandes en Base.
+
+### Merkle Tree para whitelist
+
+Ventajas:
+- Gas eficiente
+- Lista grande sin almacenar todo en el contrato
+- Verificación off-chain
