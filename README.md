@@ -425,3 +425,10 @@ Un contrato que permite:
 Parte de la tax va a una wallet de marketing:
 - Transparente
 - Se puede usar para CEX listings, influencers, etc.
+
+### Gestión de treasury
+
+- Multi-sig para fondos grandes
+- Transparencia on-chain
+- Reportes periódicos
+- Votación de la comunidad para gastos grandes
