@@ -489,3 +489,10 @@ Framework completo para governance:
 - veToken: Poder de voto según lock time
 - Incentiva holding largo plazo
 - Común en DAOs y DeFi 2.0
+
+### Usos comunes de flash loans
+
+- Arbitraje
+- Liquidaciones
+- Refinanciamiento
+- Testing de contratos
