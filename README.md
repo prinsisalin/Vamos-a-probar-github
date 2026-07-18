@@ -502,3 +502,7 @@ Framework completo para governance:
 - Usuario deposita collateral
 - Puede pedir prestado un % del valor
 - Si el valor baja → liquidation automática
+
+### Oráculos en options
+
+Se usan para determinar el precio al vencimiento y ejecutar automáticamente.
