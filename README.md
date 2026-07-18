@@ -475,3 +475,11 @@ Ideal para juegos o colecciones mixtas.
 
 - Bridges: Mover assets
 - Cross-chain messaging: Enviar mensajes y datos entre chains
+
+### Governor de OpenZeppelin
+
+Framework completo para governance:
+- Propuestas
+- Votación
+- Timelock
+- Ejecución automática
