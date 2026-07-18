@@ -432,3 +432,10 @@ Parte de la tax va a una wallet de marketing:
 - Transparencia on-chain
 - Reportes periódicos
 - Votación de la comunidad para gastos grandes
+
+### Events para tracking completo
+
+```solidity
+event Transfer(address indexed from, address indexed to, uint256 value);
+event TaxCollected(uint256 amount, string taxType);
+event OwnershipTransferred(address previousOwner, address newOwner);
