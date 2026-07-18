@@ -483,3 +483,9 @@ Framework completo para governance:
 - Votación
 - Timelock
 - Ejecución automática
+
+### veToken vs token normal
+
+- veToken: Poder de voto según lock time
+- Incentiva holding largo plazo
+- Común en DAOs y DeFi 2.0
