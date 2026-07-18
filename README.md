@@ -514,3 +514,7 @@ El resultado del evento se resuelve usando Chainlink o datos verificables.
 ### Oráculos en insurance
 
 Se usan para verificar eventos (ej: hack, precio por debajo de X, etc.) y pagar claims automáticamente.
+
+### Auto-compounding
+
+Reclama rewards y los reinvierte automáticamente para maximizar el rendimiento compuesto.
