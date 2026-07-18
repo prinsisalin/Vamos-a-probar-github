@@ -496,3 +496,9 @@ Framework completo para governance:
 - Liquidaciones
 - Refinanciamiento
 - Testing de contratos
+
+### Collateral y liquidation
+
+- Usuario deposita collateral
+- Puede pedir prestado un % del valor
+- Si el valor baja → liquidation automática
