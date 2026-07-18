@@ -470,3 +470,8 @@ Ideal para juegos o colecciones mixtas.
 
 - Proxy: Se puede actualizar la lógica
 - Inmutable: Más seguro pero sin posibilidad de fix si hay bug
+
+### Bridges vs Cross-chain messaging
+
+- Bridges: Mover assets
+- Cross-chain messaging: Enviar mensajes y datos entre chains
