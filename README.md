@@ -465,3 +465,8 @@ Ventajas:
 Permite crear múltiples tipos de tokens en un solo contrato (fungibles + no fungibles).
 
 Ideal para juegos o colecciones mixtas.
+
+### Proxy vs Contrato inmutable
+
+- Proxy: Se puede actualizar la lógica
+- Inmutable: Más seguro pero sin posibilidad de fix si hay bug
