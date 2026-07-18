@@ -446,3 +446,9 @@ event OwnershipTransferred(address previousOwner, address newOwner);
 event Transfer(address indexed from, address indexed to, uint256 value);
 
  // indexed permite filtrar fácilmente en frontend y indexadores
+
+### ERC721A (mint barato)
+
+ERC721A reduce el gas de mint masivo de NFTs.
+
+Ideal para colecciones grandes en Base.
