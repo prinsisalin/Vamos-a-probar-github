@@ -459,3 +459,9 @@ Ventajas:
 - Gas eficiente
 - Lista grande sin almacenar todo en el contrato
 - Verificación off-chain
+
+### ERC1155 (multi-token)
+
+Permite crear múltiples tipos de tokens en un solo contrato (fungibles + no fungibles).
+
+Ideal para juegos o colecciones mixtas.
