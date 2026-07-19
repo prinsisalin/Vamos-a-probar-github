@@ -593,3 +593,7 @@ Después de votación exitosa:
 - Ganar tokens jugando
 - Items NFT que mejoran stats
 - Economía equilibrada
+
+### Mantener top 10 o top 100
+
+Se puede hacer con array ordenado o usando librerías.
