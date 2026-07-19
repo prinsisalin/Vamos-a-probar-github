@@ -557,3 +557,9 @@ Común en proyectos con fuerte comunidad.
 - Comprador deposita fondos
 - Vendedor envía el item
 - Funds se liberan al confirmar recepción
+
+### Multisig para pagos grandes
+
+Requiere varias firmas para liberar fondos importantes.
+
+Mayor seguridad.
