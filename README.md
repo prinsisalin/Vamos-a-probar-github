@@ -563,3 +563,8 @@ Común en proyectos con fuerte comunidad.
 Requiere varias firmas para liberar fondos importantes.
 
 Mayor seguridad.
+
+### Tipos de subasta
+
+- English: Precio sube
+- Dutch: Precio baja hasta que alguien compra
