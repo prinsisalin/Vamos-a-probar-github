@@ -546,3 +546,8 @@ Mecanismo que equilibra posiciones long y short pagando entre ellas periódicame
 - Etc.
 
 Común en proyectos con fuerte comunidad.
+
+### On-chain vs Off-chain metadata
+
+- On-chain: más caro pero inmutable
+- Off-chain (IPFS): más barato y flexible
