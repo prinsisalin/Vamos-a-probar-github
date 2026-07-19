@@ -551,3 +551,9 @@ Común en proyectos con fuerte comunidad.
 
 - On-chain: más caro pero inmutable
 - Off-chain (IPFS): más barato y flexible
+
+### Escrow en marketplace
+
+- Comprador deposita fondos
+- Vendedor envía el item
+- Funds se liberan al confirmar recepción
