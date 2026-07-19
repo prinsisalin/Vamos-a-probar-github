@@ -574,3 +574,9 @@ Mayor seguridad.
 - Utilización baja → tasa baja
 - Utilización alta → tasa alta
 - Incentiva balance entre supply y borrow
+
+### Beneficios de fractional NFTs
+
+- Acceso a NFTs caros para más gente
+- Liquidez
+- Trading de fracciones
