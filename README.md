@@ -580,3 +580,10 @@ Mayor seguridad.
 - Acceso a NFTs caros para más gente
 - Liquidez
 - Trading de fracciones
+
+### Ejecución de propuestas
+
+Después de votación exitosa:
+- Timelock
+- Ejecución automática o manual
+- Transparencia total
