@@ -587,3 +587,9 @@ Después de votación exitosa:
 - Timelock
 - Ejecución automática o manual
 - Transparencia total
+
+### Play-to-Earn básico
+
+- Ganar tokens jugando
+- Items NFT que mejoran stats
+- Economía equilibrada
