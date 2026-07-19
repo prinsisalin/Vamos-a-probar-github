@@ -568,3 +568,9 @@ Mayor seguridad.
 
 - English: Precio sube
 - Dutch: Precio baja hasta que alguien compra
+
+### Modelo de tasa de interés
+
+- Utilización baja → tasa baja
+- Utilización alta → tasa alta
+- Incentiva balance entre supply y borrow
