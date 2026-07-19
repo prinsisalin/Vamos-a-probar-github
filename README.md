@@ -522,3 +522,18 @@ Reclama rewards y los reinvierte automáticamente para maximizar el rendimiento 
 ### Funding Rate
 
 Mecanismo que equilibra posiciones long y short pagando entre ellas periódicamente.
+
+
+---
+
+### **Commit nuevo 2**
+**Mensaje:** `docs: friend.tech like mechanics`
+
+**Texto para añadir:**
+
+```markdown
+### Mecánicas tipo Friend.tech
+
+- Comprar "keys" de un usuario
+- Acceso a contenido privado
+- Precio sube con la demanda
