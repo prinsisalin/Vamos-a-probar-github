@@ -518,3 +518,7 @@ Se usan para verificar eventos (ej: hack, precio por debajo de X, etc.) y pagar 
 ### Auto-compounding
 
 Reclama rewards y los reinvierte automáticamente para maximizar el rendimiento compuesto.
+
+### Funding Rate
+
+Mecanismo que equilibra posiciones long y short pagando entre ellas periódicamente.
