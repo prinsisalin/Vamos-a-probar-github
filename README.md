@@ -537,3 +537,12 @@ Mecanismo que equilibra posiciones long y short pagando entre ellas periódicame
 - Comprar "keys" de un usuario
 - Acceso a contenido privado
 - Precio sube con la demanda
+
+### Referral multi-nivel
+
+- Nivel 1: 10%
+- Nivel 2: 5%
+- Nivel 3: 2%
+- Etc.
+
+Común en proyectos con fuerte comunidad.
