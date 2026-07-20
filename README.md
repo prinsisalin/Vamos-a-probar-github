@@ -614,3 +614,10 @@ uint256 random = uint256(blockhash(block.number - 1));
 function calculatePendingRewards(address user) public view returns (uint256) {
     // lógica de cálculo según tiempo o actividad
 }
+
+### Aplicación del modifier
+
+```solidity
+function deposit() public whenNotPaused {
+    // solo funciona si no está pausado
+}
