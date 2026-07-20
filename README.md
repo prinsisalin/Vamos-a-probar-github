@@ -656,3 +656,8 @@ function getBalance(address user) public view returns (uint256) {
 - Parte a treasury
 - Parte a rewards para holders
 - Parte a liquidity
+
+### Auto-harvest vs Manual
+
+- Manual: Usuario llama la función
+- Auto: El contrato lo hace automáticamente (más gas eficiente a veces
