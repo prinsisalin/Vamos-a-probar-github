@@ -607,3 +607,10 @@ uint256 random = uint256(blockhash(block.number - 1));
 
 - Cliff: período inicial sin liberación
 - Linear: liberación gradual después del cliff
+
+### Cálculo de rewards pendientes
+
+```solidity
+function calculatePendingRewards(address user) public view returns (uint256) {
+    // lógica de cálculo según tiempo o actividad
+}
