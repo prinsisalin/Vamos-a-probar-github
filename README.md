@@ -666,3 +666,8 @@ function getBalance(address user) public view returns (uint256) {
 
 - Manual: Usuario decide cuándo reinvertir
 - Auto: El contrato lo hace automáticamente (mejor UX)
+
+### Vesting vs Lock
+
+- Lock: No se puede retirar durante el período
+- Vesting: Se libera gradualmente
