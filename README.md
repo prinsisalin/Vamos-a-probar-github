@@ -602,3 +602,8 @@ Se puede hacer con array ordenado o usando librerías.
 
 ```solidity
 uint256 random = uint256(blockhash(block.number - 1));
+
+### Cliff + Linear Vesting
+
+- Cliff: período inicial sin liberación
+- Linear: liberación gradual después del cliff
