@@ -621,3 +621,10 @@ function calculatePendingRewards(address user) public view returns (uint256) {
 function deposit() public whenNotPaused {
     // solo funciona si no está pausado
 }
+
+### Emergency Withdraw
+
+```solidity
+function emergencyWithdraw() public onlyOwner {
+    // retirar todos los fondos en caso de emergencia
+}
