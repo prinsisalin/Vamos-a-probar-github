@@ -661,3 +661,8 @@ function getBalance(address user) public view returns (uint256) {
 
 - Manual: Usuario llama la función
 - Auto: El contrato lo hace automáticamente (más gas eficiente a veces
+
+### Auto-compounding
+
+- Manual: Usuario decide cuándo reinvertir
+- Auto: El contrato lo hace automáticamente (mejor UX)
