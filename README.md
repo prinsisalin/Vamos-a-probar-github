@@ -650,3 +650,9 @@ mapping(address => uint256) public balances;
 function getBalance(address user) public view returns (uint256) {
     return balances[user];
 }
+
+### Distribución de fees
+
+- Parte a treasury
+- Parte a rewards para holders
+- Parte a liquidity
