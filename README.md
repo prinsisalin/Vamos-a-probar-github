@@ -635,3 +635,9 @@ function emergencyWithdraw() public onlyOwner {
 function calculateRewards(address user) public view returns (uint256) {
     // lógica según tiempo staked o actividad
 }
+
+### Recompensas multi-nivel
+
+- Nivel 1: 10%
+- Nivel 2: 5%
+- Nivel 3: 3%
