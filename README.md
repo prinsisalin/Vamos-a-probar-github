@@ -689,3 +689,8 @@ function calculateRewards(address user) public view returns (uint256) {
 - Identidad on-chain
 - Acceso a comunidades
 - Credenciales
+
+### Roles vs Single Owner
+
+- Roles: Más granular y seguro
+- Single Owner: Más simple pero punto único de fallo
