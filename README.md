@@ -684,3 +684,10 @@ function getBalance(address user) public view returns (uint256) {
 function calculateRewards(address user) public view returns (uint256) {
     return stakedNFTs[user].length * rewardPerNFT;
 }
+
+### Usos de Soulbound Tokens
+
+- Badges de logros
+- Identidad on-chain
+- Acceso a comunidades
+- Credenciales
