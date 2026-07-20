@@ -677,3 +677,10 @@ function getBalance(address user) public view returns (uint256) {
 - Lock más tiempo → más boost
 - Más tokens staked → más boost
 - Nivel de NFT → boost extra
+
+### Rewards por NFT
+
+```solidity
+function calculateRewards(address user) public view returns (uint256) {
+    return stakedNFTs[user].length * rewardPerNFT;
+}
