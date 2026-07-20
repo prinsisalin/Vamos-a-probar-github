@@ -641,3 +641,12 @@ function calculateRewards(address user) public view returns (uint256) {
 - Nivel 1: 10%
 - Nivel 2: 5%
 - Nivel 3: 3%
+
+### Balance Tracking
+
+```solidity
+mapping(address => uint256) public balances;
+
+function getBalance(address user) public view returns (uint256) {
+    return balances[user];
+}
