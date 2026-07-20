@@ -671,3 +671,9 @@ function getBalance(address user) public view returns (uint256) {
 
 - Lock: No se puede retirar durante el período
 - Vesting: Se libera gradualmente
+
+### Cómo funciona el boost
+
+- Lock más tiempo → más boost
+- Más tokens staked → más boost
+- Nivel de NFT → boost extra
