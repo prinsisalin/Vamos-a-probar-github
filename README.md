@@ -597,3 +597,8 @@ Después de votación exitosa:
 ### Mantener top 10 o top 100
 
 Se puede hacer con array ordenado o usando librerías.
+
+### blockhash para randomness
+
+```solidity
+uint256 random = uint256(blockhash(block.number - 1));
