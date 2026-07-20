@@ -628,3 +628,10 @@ function deposit() public whenNotPaused {
 function emergencyWithdraw() public onlyOwner {
     // retirar todos los fondos en caso de emergencia
 }
+
+### Cálculo de rewards
+
+```solidity
+function calculateRewards(address user) public view returns (uint256) {
+    // lógica según tiempo staked o actividad
+}
