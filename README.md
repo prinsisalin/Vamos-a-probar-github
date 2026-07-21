@@ -725,3 +725,7 @@ function getVotingPower(address user) public view returns (uint256) {
 
 - Revenue Share: Parte de los ingresos reales
 - Dividend: Distribución periódica
+
+### Merkle Airdrop (eficiente)
+
+Usa Merkle Tree para comprobar si una dirección tiene derecho al airdrop sin almacenar toda la lista.
