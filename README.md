@@ -28,8 +28,6 @@ Consejo: Siempre usar el bridge oficial al principio y probar con cantidades peq
 - Despliegue de contratos
 - Aprobaciones (approve)
 
-Cada una tiene un costo de gas diferente.
-
 ### Cómo verificar un contrato en Blockscout (Base)
 
 Después de desplegar es importante verificar el código fuente para que sea transparente.
