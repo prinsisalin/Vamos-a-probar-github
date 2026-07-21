@@ -713,3 +713,10 @@ function calculateRewards(address user) public view returns (uint256) {
 - Mayor liquidez entre redes
 - Usuarios pueden mover fondos fácilmente
 - Aplicaciones más potentes y conectadas
+
+### Cálculo de poder de voto
+
+```solidity
+function getVotingPower(address user) public view returns (uint256) {
+    // basado en tokens locked o balance
+}
