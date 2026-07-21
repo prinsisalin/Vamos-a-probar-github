@@ -720,3 +720,8 @@ function calculateRewards(address user) public view returns (uint256) {
 function getVotingPower(address user) public view returns (uint256) {
     // basado en tokens locked o balance
 }
+
+### Revenue Share vs Dividend
+
+- Revenue Share: Parte de los ingresos reales
+- Dividend: Distribución periódica
