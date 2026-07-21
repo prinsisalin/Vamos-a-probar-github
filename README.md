@@ -694,3 +694,10 @@ function calculateRewards(address user) public view returns (uint256) {
 
 - Roles: Más granular y seguro
 - Single Owner: Más simple pero punto único de fallo
+
+### Ventajas del Proxy
+
+- Actualizaciones sin perder estado
+- Corrección de bugs
+- Añadir nuevas funciones
+- Menos costoso que redeploy
