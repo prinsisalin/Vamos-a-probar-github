@@ -740,3 +740,10 @@ Usa Merkle Tree para comprobar si una dirección tiene derecho al airdrop sin al
 ### Mantener Top 10
 
 Se puede hacer con array ordenado o usando librerías para optimizar gas.
+
+### Rewards por completar quests
+
+- Puntos
+- Tokens
+- Badges soulbound
+- Acceso a niveles superiores
