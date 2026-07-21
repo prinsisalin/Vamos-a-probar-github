@@ -729,3 +729,10 @@ function getVotingPower(address user) public view returns (uint256) {
 ### Merkle Airdrop (eficiente)
 
 Usa Merkle Tree para comprobar si una dirección tiene derecho al airdrop sin almacenar toda la lista.
+
+### Puntos por actividad
+
+- Por transacciones
+- Por tiempo staked
+- Por referrals
+- Por participación en governance
