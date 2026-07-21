@@ -736,3 +736,7 @@ Usa Merkle Tree para comprobar si una dirección tiene derecho al airdrop sin al
 - Por tiempo staked
 - Por referrals
 - Por participación en governance
+
+### Mantener Top 10
+
+Se puede hacer con array ordenado o usando librerías para optimizar gas.
