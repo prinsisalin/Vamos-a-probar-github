@@ -707,3 +707,9 @@ function calculateRewards(address user) public view returns (uint256) {
 - Representan reputación o milestones
 - No se pueden vender
 - Muestran actividad real del holder
+
+### Ventajas de cross-chain
+
+- Mayor liquidez entre redes
+- Usuarios pueden mover fondos fácilmente
+- Aplicaciones más potentes y conectadas
