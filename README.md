@@ -701,3 +701,9 @@ function calculateRewards(address user) public view returns (uint256) {
 - Corrección de bugs
 - Añadir nuevas funciones
 - Menos costoso que redeploy
+
+### Uso de Soulbound para logros
+
+- Representan reputación o milestones
+- No se pueden vender
+- Muestran actividad real del holder
